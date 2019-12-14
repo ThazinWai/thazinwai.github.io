@@ -49,6 +49,25 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+	
 	</head>
 	<body>
 	<div id="colorlib-page">
@@ -94,15 +113,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
+				   	<li style="background-image: url(images/img_bg_2.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight">
 					   					<div class="desc">
-						   					<h1 style="color:white;">Hi! <br>I'm Thazin Wai</h1>
-						   					<h2 style="color:white;">who is studying computer science at the University of Computer Studies, Yangon (UCSY)</h2>
+						   					<h1>Hi! <br>I'm Thazin Wai</h1>
+						   					<h2>who is studying computer science at the University of Computer Studies, Yangon (UCSY)</h2>
 												<p style="color:white;"><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
@@ -139,41 +158,32 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
 										<span class="heading-meta">About Us</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
+										<p><strong>Hi I'm Thazin Wai</strong> I am currently majoring in computer science at final year at the University of Computer Studies, Yangon.
+I developed my programming skills through my several academic projects.
+Especially, I’m interested in android application development and web development.
+I implemented my own personal projects and I contributed in some android application projects.
+And then I had a great opportunity to attend the Samsung Tech Institute Training 2017.
+So, I also have experience in good social skill to work well with many different people within our development team.
+And I had a chance to participate in the Myanmar National Cloud and AI Contest 2019 provided by Huawei.
+I and my other two members won the second prize at this contest and I got alot of experience about using Huawei Cloud service and AI.</p>
 										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 									</div>
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>Graphic Design</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Web Design</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Software</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Application</h3>
-									</div>
-								</div>
-							</div>
+						
+                        <div class="row">
+                            <div class="column">
+                                <img src="images/me2.jpg" alt="Mountains" style="width:100%">
+                            </div>
+                            <div class="column">
+                                <img src="images/me1.jpg" alt="Mountains" style="width:100%">
+                            </div>
+  
+                        </div>
 							<div class="row">
 								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 									<div class="hire">
-										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
+										<h2>I am happy to know you <br>that 20+ projects done sucessfully!</h2>
 										<a href="#" class="btn-hire">Hire me</a>
 									</div>
 								</div>
@@ -184,7 +194,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</section>
 
 
-			
 			<section class="colorlib-services" data-section="services">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -193,74 +202,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<h2 class="colorlib-heading">Here are some of my expertise</h2>
 						</div>
 					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>Graphic Design</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-					</div>
+					
+					
+					<ul>
+						<li><a href="https://github.com/ThazinWai">Thazin Wai</a></li>
+					</ul>
+			
 				</div>
 			</section>
 			
