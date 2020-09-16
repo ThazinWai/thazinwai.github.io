@@ -1,1 +1,0 @@
-# thazinwai.github.io
